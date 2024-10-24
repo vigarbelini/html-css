@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style> 
+        div{
+            display: inline-block;
+            text-align: center;
+            height: 300px;
+            width: 300px;
+            background-color: aliceblue;
+            border: 1px solid black;
+        }
+
+        div > p {
+            display: none;
+        }
+
+
+        div#primeira:hover > p{
+         background-color: red;
+         display: block;
+         
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="primeira">01
+        <p>corinthians</p>
+    </div>
+    <div id="segunda">02</div>
+    <div id="terceira">03</div>
+    
+</body>
+</html>

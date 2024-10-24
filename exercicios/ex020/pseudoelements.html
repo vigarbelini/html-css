@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* 
+        # = Id
+        . = Class
+        : = Pseudo Classes
+        :: = Pseudo classes
+        > = clidren ( Filho )
+
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: fuchsia;
+        }
+        
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .espcial::before{ 
+            content: '---';
+        }
+
+
+        a::after{
+            content: "link";
+            text-decoration: none;
+            font-weight: normal;
+            color: whitesmoke;
+        }
+
+
+
+        
+    </style>
+</head>
+<body> <h1> Personalizando links de Vinicius Garbelini</h1>
+    <ul><li><a href="https://www.youtube.com/channel/UCI9RJv1qvjcjB9FTMJFYuBA" target="_blank"></a> Canal do Youtube</li>
+    <li><a href="https://www.instagram.com/vigarbelini/" target="_blank" class="espcial"></a> Instagram</li>
+    <li><a href="ajnfjnasfjs"></a> Link sem funcionalidade</li>
+    </ul>
+    
+</body>
+</html>
